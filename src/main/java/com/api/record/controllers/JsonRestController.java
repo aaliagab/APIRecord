@@ -23,7 +23,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.api.record.entities.Jugador;
 
-@CrossOrigin(origins = {"http://localhost:8000",
+@CrossOrigin(origins = {"http://localhost:8000","http://172.16.0.206:8000",
 		"http://172.16.0.207:8000"})
 @RestController
 @RequestMapping("/api")
